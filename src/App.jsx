@@ -5,7 +5,6 @@ import { useState } from "react";
 
 function App() {
   // Declare your state here
-  const [todos, setTodos] = useState([]);
 
   return (
     <div className=''>
