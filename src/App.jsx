@@ -9,7 +9,10 @@ function App() {
 
   return (
     <div className='bg-indigo-400 h-screen w-full flex items-center justify-center'>
-      {/* Write your code here */}
+      <div className='w-[90%] md:w-1/2  xl:w-2/5 bg-white shadow-xl rounded-md p-4'>
+        <Input setTodos={setTodos} />
+        {/* Write your code here */}
+      </div>
     </div>
   );
 }

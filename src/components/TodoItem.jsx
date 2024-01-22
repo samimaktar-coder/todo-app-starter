@@ -7,7 +7,7 @@ function TodoItem({ todo, setTodos }) {
     // write the logic of this function here
   };
 
-  const delteTodo = () => {
+  const deleteTodo = () => {
     // write the logic of this function here
   };
   const toggleCompleted = () => {
@@ -15,9 +15,7 @@ function TodoItem({ todo, setTodos }) {
   };
 
   return (
-    <div
-      className={``}
-    >
+    <div className={``}>
       {/* Write the code for the TodoItem component */}
     </div>
   );
