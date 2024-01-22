@@ -5,9 +5,10 @@ import { useState } from "react";
 
 function App() {
   // Declare your state here
+  const [todos, setTodos] = useState([]);
 
   return (
-    <div className=''>
+    <div className='bg-indigo-400 h-screen w-full flex items-center justify-center'>
       {/* Write your code here */}
     </div>
   );
