@@ -15,7 +15,7 @@ function TodoItem({ todo, setTodos }) {
   };
 
   return (
-    <div className={``}>
+    <div className={``} data-testid="todo-item-component">
       {/* Write the code for the TodoItem component */}
     </div>
   );
