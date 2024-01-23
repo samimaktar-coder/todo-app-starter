@@ -8,7 +8,10 @@ function App() {
   const [todos, setTodos] = useState([]);
 
   return (
-    <div className='bg-indigo-400 h-screen w-full flex items-center justify-center'>
+    <div
+      className='bg-indigo-400 h-screen w-full flex items-center justify-center'
+      data-testid='flex-div'
+    >
       {/* Write your code here */}
     </div>
   );
