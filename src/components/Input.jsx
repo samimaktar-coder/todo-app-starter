@@ -8,7 +8,7 @@ function Input({ setTodos }) {
   }
 
   return (
-    <form onSubmit={addTodo} className=''>
+    <form onSubmit={addTodo} className='' data-testid='input-component'>
       {/* Write the code for the Input component */}
     </form>
   );
