@@ -14,7 +14,10 @@ function App() {
     >
       <div className='w-[90%] md:w-1/2  xl:w-2/5 bg-white shadow-xl rounded-md p-4'>
         <Input setTodos={setTodos} />
-        <div className='max-h-72 min-h-20 overflow-y-auto mt-5'>
+        <div
+          className='max-h-72 min-h-20 overflow-y-auto mt-5'
+          data-testid='todo-item-component'
+        >
           {todos.map((todo) => (
             <TodoItem key={todo.id} todo={todo} setTodos={setTodos} />
           ))}
