@@ -1,4 +1,4 @@
-tabs: ["src/App.jsx", "src/components/Input.jsx"]
+tabs: ["src/App.jsx"]
 terminals: ["npm install && npm run dev"]
 playground-view: terminal-editor-browser
 run-button: npm run dev
