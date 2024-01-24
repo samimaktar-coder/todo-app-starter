@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function TodoItem({ todos, setTodos }) {
+function TodoItem({ todo, setTodos }) {
   // Declare your state here
 
   const toggleTodoEdit = () => {
